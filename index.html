@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+<link rel="stylesheet" href="styles2.css">
+<title>Cyberlock</title>
+</head>
+<body>
+ <header>
+  <nav style="text-decoration-color:#8e24aa;position: fixed; right:50px; top: 10px;align-items: center;">
+    <ul>
+        <li><a href="index.html">Inicio</a></Sli>
+        <li><a href="malware.html">Malware y Ataques</a></li>
+        <li><a href="antivirus.html">Antivirus</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+    <div style="display: flex; align-items: center; position: absolute; left: 0; top: 270;">
+      <h1 style="position: absolute; top: 57px; margin-left: auto; color:#8e24aa"> Bienvenido</h1>
+    </div>
+  <img src="Background.png" style="position: absolute;align-items: center; right: 600; top: 230px; width: 25%;">
+  <main>
+  </main>
+<footer style="background-color: #131313; color: #ffffff; width: 100%; position: absolute; top: 900; right: 0; text-align: center;">
+    <p>Copyright ©2023 JoCoo</p>
+  </footer>
+  <script>
+    const navBtn = document.querySelector('.nav-btn');
+    const navLinks = document.querySelector('.nav-links');
+    navBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('show-links');
+    });
+  </script>
+<script src="anim.js"></script>
+</body>
+</html>

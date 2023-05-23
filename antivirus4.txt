@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de ciberlock" height="10%" width="10%">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="malware.html">Malware</a></li>
+                <li><a href="ataques.html">Ataques</a></li>
+                <li><a href="antivirus.html">Antivirus</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Protege tu mundo digital</h1>
+            <p>¡La seguridad es nuestra prioridad!</p>
+            <a href="#" class="cta-btn">Más información</a>
+        </div>
+    </div>
+
+    <section class="antivirus">
+        <h2>Antivirus</h2>
+    </section>
+
+    <section class="antivirus">
+        <h2>Mejores antivirus</h2>
+        <p>Descubre los 10 mejores antivirus:</p>
+        <div class="antivirus-info">
+            <div class="antivirus-section">
+                <h3>Norton Antivirus</h3>
+                <p>Norton es uno de los antivirus más populares y confiables del mercado. Ofrece una protección sólida contra virus, malware y ransomware. Además, cuenta con funciones de seguridad adicionales, como un cortafuegos y protección de identidad. Puedes encontrar más información en su <a href="https://www.norton.com" target="_blank">sitio web oficial</a>.</p>
+            </div>
+            <div class="antivirus-section">
+                <h3>Bitdefender Antivirus Plus</h3>
+                <p>Este antivirus destaca por su capacidad para detectar y bloquear amenazas de forma eficiente. Ofrece protección en tiempo real, escaneo de archivos y navegación segura. También incluye características como un administrador de contraseñas y una VPN. Obtén más información en: <a href="https://www.bitdefender.com" target="_blank">Bitdefender Antivirus Plus</a>.</p>
+            </div>
+            <div class="antivirus-section">
+                <h3>Kaspersky Antivirus</h3>
+                <p>Kaspersky es reconocido por su capacidad para detectar y eliminar amenazas de manera efectiva. Proporciona una protección sólida contra virus, malware y phishing. Además, ofrece funciones como control parental y protección de pagos en línea. Para más detalles, visita el <a href="https://www.kaspersky.com" target="_blank">sitio web oficial de Kaspersky</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 CiberLock. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

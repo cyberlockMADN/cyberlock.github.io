@@ -1,0 +1,144 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.hero {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(background.jpg);
+}
+
+.hero-text {
+    text-align: center;
+    color: #8e24aa;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.cta-btn {
+    background-color: #8e24aa;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.antivirus {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8e24aa;
+}
+
+.expand-btn {
+    background-color: #8e24aa;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.expanded-info {
+    display: none;
+    margin-top: 20px;
+}
+
+.antivirus .expand-btn:focus + .expanded-info {
+    display: block;
+}
+
+.antivirus .expand-btn:focus {
+    outline: none;
+}
+
+.antivirus .expanded-info p {
+    margin-bottom: 10px;
+}
+
+.antivirus .expanded-info ul {
+    margin-left: 20px;
+}
+
+.antivirus .expanded-info a {
+    color: #8e24aa;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .cta-btn,
+    .expand-btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}

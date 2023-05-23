@@ -1,0 +1,114 @@
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(-45deg, #000000, #1b0f20);
+	background-size: 400% 400%;
+	        animation:fadeIn 3s ease-out, gradient 13s ease infinite;
+}
+h1 {
+color: #ffffff;
+text-align: center;
+font-weight: bold;
+font-size: 4em;
+margin: 0;
+padding: 10;
+animation: slideInLeft 1s ease-out; fadeIn 3s ease-out ;
+}
+
+/* Estilos para los párrafos */
+p {
+  color: #ffffff;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #8e24aa;
+  text-decoration: none;
+}
+a:hover {
+  color: #8e24aa;
+  transition: color 0.2s ease-in;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+  text-align: center;
+}
+.recuadro {
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(48,48,48,0.8);
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+/* Estilos para las imágenes */
+img {
+  width: auto;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline
+;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  }
+  
+  nav li {
+  margin: 0;
+  }
+  
+  nav a {
+  padding: 0.5rem;
+  }
+  
+  nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
