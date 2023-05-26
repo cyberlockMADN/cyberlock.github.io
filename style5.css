@@ -50,7 +50,7 @@ body {
         }
   
   .hero {
-    background-image: url("background.jpg");
+    background-image: url("Background.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -58,7 +58,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #222;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Background.jpg);
   }
   
   .hero-text {
